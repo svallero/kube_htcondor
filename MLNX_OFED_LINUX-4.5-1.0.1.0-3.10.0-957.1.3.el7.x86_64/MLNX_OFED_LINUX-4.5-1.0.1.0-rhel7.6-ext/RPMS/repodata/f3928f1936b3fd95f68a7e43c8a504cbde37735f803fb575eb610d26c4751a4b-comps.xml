@@ -1,0 +1,889 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <comps>
+	<group>
+
+				<id>all_user_only</id>
+				<name>MLNX_OFED ALL-USER-ONLY</name>
+				<default>true</default>
+				<description>Mellanox OpenFabrics Enterprise Distribution for Linux: MLNX_OFED ALL-USER-ONLY packages</description>
+				<uservisible>true</uservisible>
+				<packagelist>
+			<packagereq type="default">ucx</packagereq>
+			<packagereq type="default">opensm-static</packagereq>
+			<packagereq type="default">libibmad</packagereq>
+			<packagereq type="default">dapl-devel</packagereq>
+			<packagereq type="default">librdmacm-devel</packagereq>
+			<packagereq type="default">libibverbs-devel</packagereq>
+			<packagereq type="default">libibverbs</packagereq>
+			<packagereq type="default">ibdump</packagereq>
+			<packagereq type="default">qperf</packagereq>
+			<packagereq type="default">openmpi</packagereq>
+			<packagereq type="default">libibcm-devel</packagereq>
+			<packagereq type="default">libmlx4-devel</packagereq>
+			<packagereq type="default">sharp</packagereq>
+			<packagereq type="default">mft</packagereq>
+			<packagereq type="default">opensm-devel</packagereq>
+			<packagereq type="default">mpitests_openmpi</packagereq>
+			<packagereq type="default">libibcm</packagereq>
+			<packagereq type="default">libibumad-static</packagereq>
+			<packagereq type="default">mpi-selector</packagereq>
+			<packagereq type="default">dapl</packagereq>
+			<packagereq type="default">infiniband-diags-compat</packagereq>
+			<packagereq type="default">librdmacm</packagereq>
+			<packagereq type="default">ofed-scripts</packagereq>
+			<packagereq type="default">libibverbs-utils</packagereq>
+			<packagereq type="default">infiniband-diags</packagereq>
+			<packagereq type="default">dapl-devel-static</packagereq>
+			<packagereq type="default">opensm-libs</packagereq>
+			<packagereq type="default">srptools</packagereq>
+			<packagereq type="default">librdmacm-utils</packagereq>
+			<packagereq type="default">libmlx4</packagereq>
+			<packagereq type="default">ar_mgr</packagereq>
+			<packagereq type="default">dump_pr</packagereq>
+			<packagereq type="default">ibacm</packagereq>
+			<packagereq type="default">libmlx5-devel</packagereq>
+			<packagereq type="default">mstflint</packagereq>
+			<packagereq type="default">librxe</packagereq>
+			<packagereq type="default">ucx-devel</packagereq>
+			<packagereq type="default">libibumad</packagereq>
+			<packagereq type="default">libibverbs-devel-static</packagereq>
+			<packagereq type="default">libibmad-static</packagereq>
+			<packagereq type="default">ibutils</packagereq>
+			<packagereq type="default">libibumad-devel</packagereq>
+			<packagereq type="default">hcoll</packagereq>
+			<packagereq type="default">librxe-devel-static</packagereq>
+			<packagereq type="default">mlnx-ethtool</packagereq>
+			<packagereq type="default">ibsim</packagereq>
+			<packagereq type="default">ucx-static</packagereq>
+			<packagereq type="default">ibutils2</packagereq>
+			<packagereq type="default">cc_mgr</packagereq>
+			<packagereq type="default">perftest</packagereq>
+			<packagereq type="default">libibmad-devel</packagereq>
+			<packagereq type="default">opensm</packagereq>
+			<packagereq type="default">dapl-utils</packagereq>
+			<packagereq type="default">mlnx-iproute2</packagereq>
+			<packagereq type="default">mxm</packagereq>
+			<packagereq type="default">libmlx5</packagereq>
+			<packagereq type="default">mlnx-ofed-all-user-only</packagereq>
+		</packagelist>
+			</group>
+	<group>
+
+				<id>vma_eth_user_only</id>
+				<name>MLNX_OFED VMA-ETH-USER-ONLY</name>
+				<default>true</default>
+				<description>Mellanox OpenFabrics Enterprise Distribution for Linux: MLNX_OFED VMA-ETH-USER-ONLY packages</description>
+				<uservisible>true</uservisible>
+				<packagelist>
+			<packagereq type="default">librdmacm-devel</packagereq>
+			<packagereq type="default">libibverbs-devel</packagereq>
+			<packagereq type="default">libibverbs</packagereq>
+			<packagereq type="default">libmlx4</packagereq>
+			<packagereq type="default">libvma-utils</packagereq>
+			<packagereq type="default">libmlx4-devel</packagereq>
+			<packagereq type="default">mft</packagereq>
+			<packagereq type="default">ibacm</packagereq>
+			<packagereq type="default">libmlx5-devel</packagereq>
+			<packagereq type="default">mstflint</packagereq>
+			<packagereq type="default">librxe</packagereq>
+			<packagereq type="default">librdmacm</packagereq>
+			<packagereq type="default">libibverbs-devel-static</packagereq>
+			<packagereq type="default">libibumad</packagereq>
+			<packagereq type="default">ibutils</packagereq>
+			<packagereq type="default">librxe-devel-static</packagereq>
+			<packagereq type="default">libvma</packagereq>
+			<packagereq type="default">ofed-scripts</packagereq>
+			<packagereq type="default">libibverbs-utils</packagereq>
+			<packagereq type="default">mlnx-ethtool</packagereq>
+			<packagereq type="default">opensm-libs</packagereq>
+			<packagereq type="default">librdmacm-utils</packagereq>
+			<packagereq type="default">libvma-devel</packagereq>
+			<packagereq type="default">ibutils2</packagereq>
+			<packagereq type="default">perftest</packagereq>
+			<packagereq type="default">mlnx-iproute2</packagereq>
+			<packagereq type="default">sockperf</packagereq>
+			<packagereq type="default">libmlx5</packagereq>
+			<packagereq type="default">mlnx-ofed-vma-eth-user-only</packagereq>
+		</packagelist>
+			</group>
+	<group>
+
+				<id>vma_vpi_3_10_0_957_1_3_el7_x86_64</id>
+				<name>MLNX_OFED VMA-VPI-3.10.0-957.1.3.EL7.X86_64</name>
+				<default>true</default>
+				<description>Mellanox OpenFabrics Enterprise Distribution for Linux: MLNX_OFED VMA-VPI-3.10.0-957.1.3.EL7.X86_64 packages</description>
+				<uservisible>true</uservisible>
+				<packagelist>
+			<packagereq type="default">opensm-static</packagereq>
+			<packagereq type="default">libibmad</packagereq>
+			<packagereq type="default">mlnx-ofa_kernel</packagereq>
+			<packagereq type="default">librdmacm-devel</packagereq>
+			<packagereq type="default">libibverbs-devel</packagereq>
+			<packagereq type="default">libibverbs</packagereq>
+			<packagereq type="default">ibdump</packagereq>
+			<packagereq type="default">libvma-utils</packagereq>
+			<packagereq type="default">libmlx4-devel</packagereq>
+			<packagereq type="default">mft</packagereq>
+			<packagereq type="default">opensm-devel</packagereq>
+			<packagereq type="default">infiniband-diags-compat</packagereq>
+			<packagereq type="default">librdmacm</packagereq>
+			<packagereq type="default">isert</packagereq>
+			<packagereq type="default">srp</packagereq>
+			<packagereq type="default">ofed-scripts</packagereq>
+			<packagereq type="default">libibverbs-utils</packagereq>
+			<packagereq type="default">iser</packagereq>
+			<packagereq type="default">infiniband-diags</packagereq>
+			<packagereq type="default">opensm-libs</packagereq>
+			<packagereq type="default">librdmacm-utils</packagereq>
+			<packagereq type="default">kernel-mft</packagereq>
+			<packagereq type="default">libmlx4</packagereq>
+			<packagereq type="default">mlnx-ofa_kernel-modules</packagereq>
+			<packagereq type="default">ibacm</packagereq>
+			<packagereq type="default">libmlx5-devel</packagereq>
+			<packagereq type="default">librxe</packagereq>
+			<packagereq type="default">mstflint</packagereq>
+			<packagereq type="default">mlnx-ofa_kernel-devel</packagereq>
+			<packagereq type="default">libibumad</packagereq>
+			<packagereq type="default">libibverbs-devel-static</packagereq>
+			<packagereq type="default">libibumad-devel</packagereq>
+			<packagereq type="default">ibutils</packagereq>
+			<packagereq type="default">librxe-devel-static</packagereq>
+			<packagereq type="default">libvma</packagereq>
+			<packagereq type="default">mlnx-ethtool</packagereq>
+			<packagereq type="default">libvma-devel</packagereq>
+			<packagereq type="default">ibutils2</packagereq>
+			<packagereq type="default">perftest</packagereq>
+			<packagereq type="default">opensm</packagereq>
+			<packagereq type="default">mlnx-iproute2</packagereq>
+			<packagereq type="default">sockperf</packagereq>
+			<packagereq type="default">libmlx5</packagereq>
+			<packagereq type="default">mlnx-ofed-vma-vpi-3.10.0-957.1.3.el7.x86_64</packagereq>
+		</packagelist>
+			</group>
+	<group>
+
+				<id>dpdk_3_10_0_957_1_3_el7_x86_64</id>
+				<name>MLNX_OFED DPDK-3.10.0-957.1.3.EL7.X86_64</name>
+				<default>true</default>
+				<description>Mellanox OpenFabrics Enterprise Distribution for Linux: MLNX_OFED DPDK-3.10.0-957.1.3.EL7.X86_64 packages</description>
+				<uservisible>true</uservisible>
+				<packagelist>
+			<packagereq type="default">mlnx-ofa_kernel</packagereq>
+			<packagereq type="default">librdmacm-devel</packagereq>
+			<packagereq type="default">libibverbs-devel</packagereq>
+			<packagereq type="default">libibverbs</packagereq>
+			<packagereq type="default">libmlx4</packagereq>
+			<packagereq type="default">mlnx-ofa_kernel-modules</packagereq>
+			<packagereq type="default">libmlx4-devel</packagereq>
+			<packagereq type="default">libmlx5-devel</packagereq>
+			<packagereq type="default">mstflint</packagereq>
+			<packagereq type="default">mlnx-ofa_kernel-devel</packagereq>
+			<packagereq type="default">librdmacm</packagereq>
+			<packagereq type="default">libibverbs-devel-static</packagereq>
+			<packagereq type="default">ofed-scripts</packagereq>
+			<packagereq type="default">libibverbs-utils</packagereq>
+			<packagereq type="default">librdmacm-utils</packagereq>
+			<packagereq type="default">libmlx5</packagereq>
+			<packagereq type="default">mlnx-ofed-dpdk-3.10.0-957.1.3.el7.x86_64</packagereq>
+		</packagelist>
+			</group>
+	<group>
+
+				<id>vma_3_10_0_957_1_3_el7_x86_64</id>
+				<name>MLNX_OFED VMA-3.10.0-957.1.3.EL7.X86_64</name>
+				<default>true</default>
+				<description>Mellanox OpenFabrics Enterprise Distribution for Linux: MLNX_OFED VMA-3.10.0-957.1.3.EL7.X86_64 packages</description>
+				<uservisible>true</uservisible>
+				<packagelist>
+			<packagereq type="default">opensm-static</packagereq>
+			<packagereq type="default">libibmad</packagereq>
+			<packagereq type="default">mlnx-ofa_kernel</packagereq>
+			<packagereq type="default">librdmacm-devel</packagereq>
+			<packagereq type="default">libibverbs-devel</packagereq>
+			<packagereq type="default">libibverbs</packagereq>
+			<packagereq type="default">ibdump</packagereq>
+			<packagereq type="default">libvma-utils</packagereq>
+			<packagereq type="default">libmlx4-devel</packagereq>
+			<packagereq type="default">mft</packagereq>
+			<packagereq type="default">opensm-devel</packagereq>
+			<packagereq type="default">infiniband-diags-compat</packagereq>
+			<packagereq type="default">librdmacm</packagereq>
+			<packagereq type="default">isert</packagereq>
+			<packagereq type="default">srp</packagereq>
+			<packagereq type="default">ofed-scripts</packagereq>
+			<packagereq type="default">libibverbs-utils</packagereq>
+			<packagereq type="default">iser</packagereq>
+			<packagereq type="default">infiniband-diags</packagereq>
+			<packagereq type="default">opensm-libs</packagereq>
+			<packagereq type="default">librdmacm-utils</packagereq>
+			<packagereq type="default">kernel-mft</packagereq>
+			<packagereq type="default">libmlx4</packagereq>
+			<packagereq type="default">mlnx-ofa_kernel-modules</packagereq>
+			<packagereq type="default">ibacm</packagereq>
+			<packagereq type="default">libmlx5-devel</packagereq>
+			<packagereq type="default">librxe</packagereq>
+			<packagereq type="default">mstflint</packagereq>
+			<packagereq type="default">mlnx-ofa_kernel-devel</packagereq>
+			<packagereq type="default">libibumad</packagereq>
+			<packagereq type="default">libibverbs-devel-static</packagereq>
+			<packagereq type="default">libibumad-devel</packagereq>
+			<packagereq type="default">ibutils</packagereq>
+			<packagereq type="default">librxe-devel-static</packagereq>
+			<packagereq type="default">libvma</packagereq>
+			<packagereq type="default">mlnx-ethtool</packagereq>
+			<packagereq type="default">libvma-devel</packagereq>
+			<packagereq type="default">ibutils2</packagereq>
+			<packagereq type="default">perftest</packagereq>
+			<packagereq type="default">opensm</packagereq>
+			<packagereq type="default">mlnx-iproute2</packagereq>
+			<packagereq type="default">sockperf</packagereq>
+			<packagereq type="default">libmlx5</packagereq>
+			<packagereq type="default">mlnx-ofed-vma-3.10.0-957.1.3.el7.x86_64</packagereq>
+		</packagelist>
+			</group>
+	<group>
+
+				<id>hypervisor_3_10_0_957_1_3_el7_x86_64</id>
+				<name>MLNX_OFED HYPERVISOR-3.10.0-957.1.3.EL7.X86_64</name>
+				<default>true</default>
+				<description>Mellanox OpenFabrics Enterprise Distribution for Linux: MLNX_OFED HYPERVISOR-3.10.0-957.1.3.EL7.X86_64 packages</description>
+				<uservisible>true</uservisible>
+				<packagelist>
+			<packagereq type="default">opensm-static</packagereq>
+			<packagereq type="default">libibmad</packagereq>
+			<packagereq type="default">mlnx-ofa_kernel</packagereq>
+			<packagereq type="default">dapl-devel</packagereq>
+			<packagereq type="default">librdmacm-devel</packagereq>
+			<packagereq type="default">libibverbs-devel</packagereq>
+			<packagereq type="default">libibverbs</packagereq>
+			<packagereq type="default">qperf</packagereq>
+			<packagereq type="default">libmlx4-devel</packagereq>
+			<packagereq type="default">libibcm-devel</packagereq>
+			<packagereq type="default">mft</packagereq>
+			<packagereq type="default">opensm-devel</packagereq>
+			<packagereq type="default">libibcm</packagereq>
+			<packagereq type="default">libibumad-static</packagereq>
+			<packagereq type="default">dapl</packagereq>
+			<packagereq type="default">infiniband-diags-compat</packagereq>
+			<packagereq type="default">librdmacm</packagereq>
+			<packagereq type="default">isert</packagereq>
+			<packagereq type="default">srp</packagereq>
+			<packagereq type="default">ofed-scripts</packagereq>
+			<packagereq type="default">libibverbs-utils</packagereq>
+			<packagereq type="default">iser</packagereq>
+			<packagereq type="default">dapl-devel-static</packagereq>
+			<packagereq type="default">infiniband-diags</packagereq>
+			<packagereq type="default">opensm-libs</packagereq>
+			<packagereq type="default">srptools</packagereq>
+			<packagereq type="default">librdmacm-utils</packagereq>
+			<packagereq type="default">kernel-mft</packagereq>
+			<packagereq type="default">libmlx4</packagereq>
+			<packagereq type="default">mlnx-ofa_kernel-modules</packagereq>
+			<packagereq type="default">ibacm</packagereq>
+			<packagereq type="default">libmlx5-devel</packagereq>
+			<packagereq type="default">librxe</packagereq>
+			<packagereq type="default">mstflint</packagereq>
+			<packagereq type="default">mlnx-ofa_kernel-devel</packagereq>
+			<packagereq type="default">libibverbs-devel-static</packagereq>
+			<packagereq type="default">libibumad</packagereq>
+			<packagereq type="default">libibmad-static</packagereq>
+			<packagereq type="default">ibutils</packagereq>
+			<packagereq type="default">libibumad-devel</packagereq>
+			<packagereq type="default">librxe-devel-static</packagereq>
+			<packagereq type="default">mlnx-ethtool</packagereq>
+			<packagereq type="default">ibutils2</packagereq>
+			<packagereq type="default">perftest</packagereq>
+			<packagereq type="default">opensm</packagereq>
+			<packagereq type="default">libibmad-devel</packagereq>
+			<packagereq type="default">dapl-utils</packagereq>
+			<packagereq type="default">libmlx5</packagereq>
+			<packagereq type="default">mlnx-iproute2</packagereq>
+			<packagereq type="default">mlnx-ofed-hypervisor-3.10.0-957.1.3.el7.x86_64</packagereq>
+		</packagelist>
+			</group>
+	<group>
+
+				<id>vma_vpi_user_only</id>
+				<name>MLNX_OFED VMA-VPI-USER-ONLY</name>
+				<default>true</default>
+				<description>Mellanox OpenFabrics Enterprise Distribution for Linux: MLNX_OFED VMA-VPI-USER-ONLY packages</description>
+				<uservisible>true</uservisible>
+				<packagelist>
+			<packagereq type="default">opensm-static</packagereq>
+			<packagereq type="default">libibmad</packagereq>
+			<packagereq type="default">librdmacm-devel</packagereq>
+			<packagereq type="default">libibverbs-devel</packagereq>
+			<packagereq type="default">libibverbs</packagereq>
+			<packagereq type="default">ibdump</packagereq>
+			<packagereq type="default">libvma-utils</packagereq>
+			<packagereq type="default">libmlx4-devel</packagereq>
+			<packagereq type="default">mft</packagereq>
+			<packagereq type="default">opensm-devel</packagereq>
+			<packagereq type="default">infiniband-diags-compat</packagereq>
+			<packagereq type="default">librdmacm</packagereq>
+			<packagereq type="default">ofed-scripts</packagereq>
+			<packagereq type="default">libibverbs-utils</packagereq>
+			<packagereq type="default">infiniband-diags</packagereq>
+			<packagereq type="default">opensm-libs</packagereq>
+			<packagereq type="default">librdmacm-utils</packagereq>
+			<packagereq type="default">libmlx4</packagereq>
+			<packagereq type="default">ibacm</packagereq>
+			<packagereq type="default">libmlx5-devel</packagereq>
+			<packagereq type="default">librxe</packagereq>
+			<packagereq type="default">mstflint</packagereq>
+			<packagereq type="default">libibumad</packagereq>
+			<packagereq type="default">libibverbs-devel-static</packagereq>
+			<packagereq type="default">libibumad-devel</packagereq>
+			<packagereq type="default">ibutils</packagereq>
+			<packagereq type="default">librxe-devel-static</packagereq>
+			<packagereq type="default">libvma</packagereq>
+			<packagereq type="default">mlnx-ethtool</packagereq>
+			<packagereq type="default">libvma-devel</packagereq>
+			<packagereq type="default">ibutils2</packagereq>
+			<packagereq type="default">perftest</packagereq>
+			<packagereq type="default">opensm</packagereq>
+			<packagereq type="default">mlnx-iproute2</packagereq>
+			<packagereq type="default">sockperf</packagereq>
+			<packagereq type="default">libmlx5</packagereq>
+			<packagereq type="default">mlnx-ofed-vma-vpi-user-only</packagereq>
+		</packagelist>
+			</group>
+	<group>
+
+				<id>basic_3_10_0_957_1_3_el7_x86_64</id>
+				<name>MLNX_OFED BASIC-3.10.0-957.1.3.EL7.X86_64</name>
+				<default>true</default>
+				<description>Mellanox OpenFabrics Enterprise Distribution for Linux: MLNX_OFED BASIC-3.10.0-957.1.3.EL7.X86_64 packages</description>
+				<uservisible>true</uservisible>
+				<packagelist>
+			<packagereq type="default">mlnx-ofa_kernel</packagereq>
+			<packagereq type="default">kernel-mft</packagereq>
+			<packagereq type="default">libibverbs</packagereq>
+			<packagereq type="default">libmlx4</packagereq>
+			<packagereq type="default">mlnx-ofa_kernel-modules</packagereq>
+			<packagereq type="default">mft</packagereq>
+			<packagereq type="default">librxe</packagereq>
+			<packagereq type="default">mstflint</packagereq>
+			<packagereq type="default">mlnx-ofa_kernel-devel</packagereq>
+			<packagereq type="default">librdmacm</packagereq>
+			<packagereq type="default">isert</packagereq>
+			<packagereq type="default">srp</packagereq>
+			<packagereq type="default">ofed-scripts</packagereq>
+			<packagereq type="default">libibverbs-utils</packagereq>
+			<packagereq type="default">iser</packagereq>
+			<packagereq type="default">mlnx-ethtool</packagereq>
+			<packagereq type="default">librdmacm-utils</packagereq>
+			<packagereq type="default">libmlx5</packagereq>
+			<packagereq type="default">mlnx-iproute2</packagereq>
+			<packagereq type="default">mlnx-ofed-basic-3.10.0-957.1.3.el7.x86_64</packagereq>
+		</packagelist>
+			</group>
+	<group>
+
+				<id>guest_3_10_0_957_1_3_el7_x86_64</id>
+				<name>MLNX_OFED GUEST-3.10.0-957.1.3.EL7.X86_64</name>
+				<default>true</default>
+				<description>Mellanox OpenFabrics Enterprise Distribution for Linux: MLNX_OFED GUEST-3.10.0-957.1.3.EL7.X86_64 packages</description>
+				<uservisible>true</uservisible>
+				<packagelist>
+			<packagereq type="default">ucx</packagereq>
+			<packagereq type="default">libibmad</packagereq>
+			<packagereq type="default">mlnx-ofa_kernel</packagereq>
+			<packagereq type="default">librdmacm-devel</packagereq>
+			<packagereq type="default">libibverbs-devel</packagereq>
+			<packagereq type="default">libibverbs</packagereq>
+			<packagereq type="default">qperf</packagereq>
+			<packagereq type="default">openmpi</packagereq>
+			<packagereq type="default">libmlx4-devel</packagereq>
+			<packagereq type="default">libibcm-devel</packagereq>
+			<packagereq type="default">mft</packagereq>
+			<packagereq type="default">sharp</packagereq>
+			<packagereq type="default">mpitests_openmpi</packagereq>
+			<packagereq type="default">libibcm</packagereq>
+			<packagereq type="default">infiniband-diags-guest</packagereq>
+			<packagereq type="default">libibumad-static</packagereq>
+			<packagereq type="default">mpi-selector</packagereq>
+			<packagereq type="default">librdmacm</packagereq>
+			<packagereq type="default">isert</packagereq>
+			<packagereq type="default">srp</packagereq>
+			<packagereq type="default">knem-modules</packagereq>
+			<packagereq type="default">ofed-scripts</packagereq>
+			<packagereq type="default">libibverbs-utils</packagereq>
+			<packagereq type="default">iser</packagereq>
+			<packagereq type="default">infiniband-diags</packagereq>
+			<packagereq type="default">opensm-libs</packagereq>
+			<packagereq type="default">srptools</packagereq>
+			<packagereq type="default">librdmacm-utils</packagereq>
+			<packagereq type="default">kernel-mft</packagereq>
+			<packagereq type="default">libmlx4</packagereq>
+			<packagereq type="default">mlnx-ofa_kernel-modules</packagereq>
+			<packagereq type="default">ibacm</packagereq>
+			<packagereq type="default">libmlx5-devel</packagereq>
+			<packagereq type="default">librxe</packagereq>
+			<packagereq type="default">mlnx-ofa_kernel-devel</packagereq>
+			<packagereq type="default">libibverbs-devel-static</packagereq>
+			<packagereq type="default">libibumad</packagereq>
+			<packagereq type="default">libibmad-static</packagereq>
+			<packagereq type="default">libibumad-devel</packagereq>
+			<packagereq type="default">hcoll</packagereq>
+			<packagereq type="default">librxe-devel-static</packagereq>
+			<packagereq type="default">mlnx-ethtool</packagereq>
+			<packagereq type="default">perftest</packagereq>
+			<packagereq type="default">libibmad-devel</packagereq>
+			<packagereq type="default">mxm</packagereq>
+			<packagereq type="default">libmlx5</packagereq>
+			<packagereq type="default">mlnx-iproute2</packagereq>
+			<packagereq type="default">mlnx-ofed-guest-3.10.0-957.1.3.el7.x86_64</packagereq>
+		</packagelist>
+			</group>
+	<group>
+
+				<id>kernel_only_3_10_0_957_1_3_el7_x86_64</id>
+				<name>MLNX_OFED KERNEL-ONLY-3.10.0-957.1.3.EL7.X86_64</name>
+				<default>true</default>
+				<description>Mellanox OpenFabrics Enterprise Distribution for Linux: MLNX_OFED KERNEL-ONLY-3.10.0-957.1.3.EL7.X86_64 packages</description>
+				<uservisible>true</uservisible>
+				<packagelist>
+			<packagereq type="default">mlnx-ofa_kernel-devel</packagereq>
+			<packagereq type="default">mlnx-ofa_kernel</packagereq>
+			<packagereq type="default">isert</packagereq>
+			<packagereq type="default">srp</packagereq>
+			<packagereq type="default">kernel-mft</packagereq>
+			<packagereq type="default">knem-modules</packagereq>
+			<packagereq type="default">ofed-scripts</packagereq>
+			<packagereq type="default">mlnx-ofa_kernel-modules</packagereq>
+			<packagereq type="default">iser</packagereq>
+			<packagereq type="default">mlnx-ofed-kernel-only-3.10.0-957.1.3.el7.x86_64</packagereq>
+		</packagelist>
+			</group>
+	<group>
+
+				<id>all_3_10_0_957_1_3_el7_x86_64</id>
+				<name>MLNX_OFED ALL-3.10.0-957.1.3.EL7.X86_64</name>
+				<default>true</default>
+				<description>Mellanox OpenFabrics Enterprise Distribution for Linux: MLNX_OFED ALL-3.10.0-957.1.3.EL7.X86_64 packages</description>
+				<uservisible>true</uservisible>
+				<packagelist>
+			<packagereq type="default">opensm-static</packagereq>
+			<packagereq type="default">libibmad</packagereq>
+			<packagereq type="default">dapl-devel</packagereq>
+			<packagereq type="default">mlnx-ofa_kernel</packagereq>
+			<packagereq type="default">librdmacm-devel</packagereq>
+			<packagereq type="default">qperf</packagereq>
+			<packagereq type="default">openmpi</packagereq>
+			<packagereq type="default">libibcm-devel</packagereq>
+			<packagereq type="default">sharp</packagereq>
+			<packagereq type="default">mpitests_openmpi</packagereq>
+			<packagereq type="default">libibumad-static</packagereq>
+			<packagereq type="default">mpi-selector</packagereq>
+			<packagereq type="default">dapl</packagereq>
+			<packagereq type="default">librdmacm</packagereq>
+			<packagereq type="default">srp</packagereq>
+			<packagereq type="default">ofed-scripts</packagereq>
+			<packagereq type="default">dapl-devel-static</packagereq>
+			<packagereq type="default">opensm-libs</packagereq>
+			<packagereq type="default">iser</packagereq>
+			<packagereq type="default">srptools</packagereq>
+			<packagereq type="default">librdmacm-utils</packagereq>
+			<packagereq type="default">kernel-mft</packagereq>
+			<packagereq type="default">libmlx4</packagereq>
+			<packagereq type="default">ar_mgr</packagereq>
+			<packagereq type="default">mlnx-ofa_kernel-modules</packagereq>
+			<packagereq type="default">dump_pr</packagereq>
+			<packagereq type="default">libibverbs-devel-static</packagereq>
+			<packagereq type="default">libibumad</packagereq>
+			<packagereq type="default">ibutils</packagereq>
+			<packagereq type="default">hcoll</packagereq>
+			<packagereq type="default">ibsim</packagereq>
+			<packagereq type="default">ibutils2</packagereq>
+			<packagereq type="default">perftest</packagereq>
+			<packagereq type="default">opensm</packagereq>
+			<packagereq type="default">mxm</packagereq>
+			<packagereq type="default">libmlx5</packagereq>
+			<packagereq type="default">ucx</packagereq>
+			<packagereq type="default">libibverbs-devel</packagereq>
+			<packagereq type="default">libibverbs</packagereq>
+			<packagereq type="default">ibdump</packagereq>
+			<packagereq type="default">libmlx4-devel</packagereq>
+			<packagereq type="default">opensm-devel</packagereq>
+			<packagereq type="default">mft</packagereq>
+			<packagereq type="default">libibcm</packagereq>
+			<packagereq type="default">infiniband-diags-compat</packagereq>
+			<packagereq type="default">isert</packagereq>
+			<packagereq type="default">knem-modules</packagereq>
+			<packagereq type="default">libibverbs-utils</packagereq>
+			<packagereq type="default">infiniband-diags</packagereq>
+			<packagereq type="default">ibacm</packagereq>
+			<packagereq type="default">libmlx5-devel</packagereq>
+			<packagereq type="default">librxe</packagereq>
+			<packagereq type="default">mstflint</packagereq>
+			<packagereq type="default">mlnx-ofa_kernel-devel</packagereq>
+			<packagereq type="default">libibmad-static</packagereq>
+			<packagereq type="default">ucx-devel</packagereq>
+			<packagereq type="default">libibumad-devel</packagereq>
+			<packagereq type="default">librxe-devel-static</packagereq>
+			<packagereq type="default">mlnx-ethtool</packagereq>
+			<packagereq type="default">ucx-static</packagereq>
+			<packagereq type="default">cc_mgr</packagereq>
+			<packagereq type="default">libibmad-devel</packagereq>
+			<packagereq type="default">dapl-utils</packagereq>
+			<packagereq type="default">mlnx-iproute2</packagereq>
+			<packagereq type="default">mlnx-ofed-all-3.10.0-957.1.3.el7.x86_64</packagereq>
+		</packagelist>
+			</group>
+	<group>
+
+				<id>vma_user_only</id>
+				<name>MLNX_OFED VMA-USER-ONLY</name>
+				<default>true</default>
+				<description>Mellanox OpenFabrics Enterprise Distribution for Linux: MLNX_OFED VMA-USER-ONLY packages</description>
+				<uservisible>true</uservisible>
+				<packagelist>
+			<packagereq type="default">opensm-static</packagereq>
+			<packagereq type="default">libibmad</packagereq>
+			<packagereq type="default">librdmacm-devel</packagereq>
+			<packagereq type="default">libibverbs-devel</packagereq>
+			<packagereq type="default">libibverbs</packagereq>
+			<packagereq type="default">ibdump</packagereq>
+			<packagereq type="default">libvma-utils</packagereq>
+			<packagereq type="default">libmlx4-devel</packagereq>
+			<packagereq type="default">mft</packagereq>
+			<packagereq type="default">opensm-devel</packagereq>
+			<packagereq type="default">infiniband-diags-compat</packagereq>
+			<packagereq type="default">librdmacm</packagereq>
+			<packagereq type="default">ofed-scripts</packagereq>
+			<packagereq type="default">libibverbs-utils</packagereq>
+			<packagereq type="default">infiniband-diags</packagereq>
+			<packagereq type="default">opensm-libs</packagereq>
+			<packagereq type="default">librdmacm-utils</packagereq>
+			<packagereq type="default">libmlx4</packagereq>
+			<packagereq type="default">ibacm</packagereq>
+			<packagereq type="default">libmlx5-devel</packagereq>
+			<packagereq type="default">librxe</packagereq>
+			<packagereq type="default">mstflint</packagereq>
+			<packagereq type="default">libibumad</packagereq>
+			<packagereq type="default">libibverbs-devel-static</packagereq>
+			<packagereq type="default">libibumad-devel</packagereq>
+			<packagereq type="default">ibutils</packagereq>
+			<packagereq type="default">librxe-devel-static</packagereq>
+			<packagereq type="default">libvma</packagereq>
+			<packagereq type="default">mlnx-ethtool</packagereq>
+			<packagereq type="default">libvma-devel</packagereq>
+			<packagereq type="default">ibutils2</packagereq>
+			<packagereq type="default">perftest</packagereq>
+			<packagereq type="default">opensm</packagereq>
+			<packagereq type="default">mlnx-iproute2</packagereq>
+			<packagereq type="default">sockperf</packagereq>
+			<packagereq type="default">libmlx5</packagereq>
+			<packagereq type="default">mlnx-ofed-vma-user-only</packagereq>
+		</packagelist>
+			</group>
+	<group>
+
+				<id>hpc_user_only</id>
+				<name>MLNX_OFED HPC-USER-ONLY</name>
+				<default>true</default>
+				<description>Mellanox OpenFabrics Enterprise Distribution for Linux: MLNX_OFED HPC-USER-ONLY packages</description>
+				<uservisible>true</uservisible>
+				<packagelist>
+			<packagereq type="default">ucx</packagereq>
+			<packagereq type="default">libibmad</packagereq>
+			<packagereq type="default">dapl-devel</packagereq>
+			<packagereq type="default">libibverbs</packagereq>
+			<packagereq type="default">ibdump</packagereq>
+			<packagereq type="default">qperf</packagereq>
+			<packagereq type="default">openmpi</packagereq>
+			<packagereq type="default">sharp</packagereq>
+			<packagereq type="default">mft</packagereq>
+			<packagereq type="default">mpitests_openmpi</packagereq>
+			<packagereq type="default">libibcm</packagereq>
+			<packagereq type="default">mpi-selector</packagereq>
+			<packagereq type="default">dapl</packagereq>
+			<packagereq type="default">infiniband-diags-compat</packagereq>
+			<packagereq type="default">librdmacm</packagereq>
+			<packagereq type="default">ofed-scripts</packagereq>
+			<packagereq type="default">libibverbs-utils</packagereq>
+			<packagereq type="default">infiniband-diags</packagereq>
+			<packagereq type="default">opensm-libs</packagereq>
+			<packagereq type="default">dapl-devel-static</packagereq>
+			<packagereq type="default">librdmacm-utils</packagereq>
+			<packagereq type="default">libmlx4</packagereq>
+			<packagereq type="default">ar_mgr</packagereq>
+			<packagereq type="default">ibacm</packagereq>
+			<packagereq type="default">dump_pr</packagereq>
+			<packagereq type="default">mstflint</packagereq>
+			<packagereq type="default">librxe</packagereq>
+			<packagereq type="default">libibumad</packagereq>
+			<packagereq type="default">ucx-devel</packagereq>
+			<packagereq type="default">ibutils</packagereq>
+			<packagereq type="default">hcoll</packagereq>
+			<packagereq type="default">mlnx-ethtool</packagereq>
+			<packagereq type="default">ucx-static</packagereq>
+			<packagereq type="default">ibutils2</packagereq>
+			<packagereq type="default">perftest</packagereq>
+			<packagereq type="default">cc_mgr</packagereq>
+			<packagereq type="default">opensm</packagereq>
+			<packagereq type="default">dapl-utils</packagereq>
+			<packagereq type="default">mxm</packagereq>
+			<packagereq type="default">mlnx-iproute2</packagereq>
+			<packagereq type="default">libmlx5</packagereq>
+			<packagereq type="default">mlnx-ofed-hpc-user-only</packagereq>
+		</packagelist>
+			</group>
+	<group>
+
+				<id>guest_user_only</id>
+				<name>MLNX_OFED GUEST-USER-ONLY</name>
+				<default>true</default>
+				<description>Mellanox OpenFabrics Enterprise Distribution for Linux: MLNX_OFED GUEST-USER-ONLY packages</description>
+				<uservisible>true</uservisible>
+				<packagelist>
+			<packagereq type="default">ucx</packagereq>
+			<packagereq type="default">libibmad</packagereq>
+			<packagereq type="default">librdmacm-devel</packagereq>
+			<packagereq type="default">libibverbs-devel</packagereq>
+			<packagereq type="default">libibverbs</packagereq>
+			<packagereq type="default">qperf</packagereq>
+			<packagereq type="default">openmpi</packagereq>
+			<packagereq type="default">libmlx4-devel</packagereq>
+			<packagereq type="default">libibcm-devel</packagereq>
+			<packagereq type="default">mft</packagereq>
+			<packagereq type="default">sharp</packagereq>
+			<packagereq type="default">mpitests_openmpi</packagereq>
+			<packagereq type="default">libibcm</packagereq>
+			<packagereq type="default">infiniband-diags-guest</packagereq>
+			<packagereq type="default">libibumad-static</packagereq>
+			<packagereq type="default">mpi-selector</packagereq>
+			<packagereq type="default">librdmacm</packagereq>
+			<packagereq type="default">ofed-scripts</packagereq>
+			<packagereq type="default">libibverbs-utils</packagereq>
+			<packagereq type="default">infiniband-diags</packagereq>
+			<packagereq type="default">opensm-libs</packagereq>
+			<packagereq type="default">srptools</packagereq>
+			<packagereq type="default">librdmacm-utils</packagereq>
+			<packagereq type="default">libmlx4</packagereq>
+			<packagereq type="default">ibacm</packagereq>
+			<packagereq type="default">libmlx5-devel</packagereq>
+			<packagereq type="default">librxe</packagereq>
+			<packagereq type="default">libibverbs-devel-static</packagereq>
+			<packagereq type="default">libibumad</packagereq>
+			<packagereq type="default">libibmad-static</packagereq>
+			<packagereq type="default">libibumad-devel</packagereq>
+			<packagereq type="default">hcoll</packagereq>
+			<packagereq type="default">librxe-devel-static</packagereq>
+			<packagereq type="default">mlnx-ethtool</packagereq>
+			<packagereq type="default">perftest</packagereq>
+			<packagereq type="default">libibmad-devel</packagereq>
+			<packagereq type="default">mxm</packagereq>
+			<packagereq type="default">libmlx5</packagereq>
+			<packagereq type="default">mlnx-iproute2</packagereq>
+			<packagereq type="default">mlnx-ofed-guest-user-only</packagereq>
+		</packagelist>
+			</group>
+	<group>
+
+				<id>hypervisor_user_only</id>
+				<name>MLNX_OFED HYPERVISOR-USER-ONLY</name>
+				<default>true</default>
+				<description>Mellanox OpenFabrics Enterprise Distribution for Linux: MLNX_OFED HYPERVISOR-USER-ONLY packages</description>
+				<uservisible>true</uservisible>
+				<packagelist>
+			<packagereq type="default">opensm-static</packagereq>
+			<packagereq type="default">libibmad</packagereq>
+			<packagereq type="default">dapl-devel</packagereq>
+			<packagereq type="default">librdmacm-devel</packagereq>
+			<packagereq type="default">libibverbs-devel</packagereq>
+			<packagereq type="default">libibverbs</packagereq>
+			<packagereq type="default">qperf</packagereq>
+			<packagereq type="default">libmlx4-devel</packagereq>
+			<packagereq type="default">libibcm-devel</packagereq>
+			<packagereq type="default">mft</packagereq>
+			<packagereq type="default">opensm-devel</packagereq>
+			<packagereq type="default">libibcm</packagereq>
+			<packagereq type="default">libibumad-static</packagereq>
+			<packagereq type="default">dapl</packagereq>
+			<packagereq type="default">infiniband-diags-compat</packagereq>
+			<packagereq type="default">librdmacm</packagereq>
+			<packagereq type="default">ofed-scripts</packagereq>
+			<packagereq type="default">libibverbs-utils</packagereq>
+			<packagereq type="default">dapl-devel-static</packagereq>
+			<packagereq type="default">infiniband-diags</packagereq>
+			<packagereq type="default">opensm-libs</packagereq>
+			<packagereq type="default">srptools</packagereq>
+			<packagereq type="default">librdmacm-utils</packagereq>
+			<packagereq type="default">libmlx4</packagereq>
+			<packagereq type="default">ibacm</packagereq>
+			<packagereq type="default">libmlx5-devel</packagereq>
+			<packagereq type="default">librxe</packagereq>
+			<packagereq type="default">mstflint</packagereq>
+			<packagereq type="default">libibverbs-devel-static</packagereq>
+			<packagereq type="default">libibumad</packagereq>
+			<packagereq type="default">libibmad-static</packagereq>
+			<packagereq type="default">ibutils</packagereq>
+			<packagereq type="default">libibumad-devel</packagereq>
+			<packagereq type="default">librxe-devel-static</packagereq>
+			<packagereq type="default">mlnx-ethtool</packagereq>
+			<packagereq type="default">ibutils2</packagereq>
+			<packagereq type="default">perftest</packagereq>
+			<packagereq type="default">opensm</packagereq>
+			<packagereq type="default">libibmad-devel</packagereq>
+			<packagereq type="default">dapl-utils</packagereq>
+			<packagereq type="default">libmlx5</packagereq>
+			<packagereq type="default">mlnx-iproute2</packagereq>
+			<packagereq type="default">mlnx-ofed-hypervisor-user-only</packagereq>
+		</packagelist>
+			</group>
+	<group>
+
+				<id>vma_eth_3_10_0_957_1_3_el7_x86_64</id>
+				<name>MLNX_OFED VMA-ETH-3.10.0-957.1.3.EL7.X86_64</name>
+				<default>true</default>
+				<description>Mellanox OpenFabrics Enterprise Distribution for Linux: MLNX_OFED VMA-ETH-3.10.0-957.1.3.EL7.X86_64 packages</description>
+				<uservisible>true</uservisible>
+				<packagelist>
+			<packagereq type="default">mlnx-ofa_kernel</packagereq>
+			<packagereq type="default">librdmacm-devel</packagereq>
+			<packagereq type="default">libibverbs-devel</packagereq>
+			<packagereq type="default">libibverbs</packagereq>
+			<packagereq type="default">libvma-utils</packagereq>
+			<packagereq type="default">libmlx4-devel</packagereq>
+			<packagereq type="default">mft</packagereq>
+			<packagereq type="default">librdmacm</packagereq>
+			<packagereq type="default">isert</packagereq>
+			<packagereq type="default">srp</packagereq>
+			<packagereq type="default">ofed-scripts</packagereq>
+			<packagereq type="default">libibverbs-utils</packagereq>
+			<packagereq type="default">iser</packagereq>
+			<packagereq type="default">opensm-libs</packagereq>
+			<packagereq type="default">librdmacm-utils</packagereq>
+			<packagereq type="default">kernel-mft</packagereq>
+			<packagereq type="default">libmlx4</packagereq>
+			<packagereq type="default">mlnx-ofa_kernel-modules</packagereq>
+			<packagereq type="default">ibacm</packagereq>
+			<packagereq type="default">libmlx5-devel</packagereq>
+			<packagereq type="default">librxe</packagereq>
+			<packagereq type="default">mstflint</packagereq>
+			<packagereq type="default">mlnx-ofa_kernel-devel</packagereq>
+			<packagereq type="default">libibumad</packagereq>
+			<packagereq type="default">libibverbs-devel-static</packagereq>
+			<packagereq type="default">ibutils</packagereq>
+			<packagereq type="default">librxe-devel-static</packagereq>
+			<packagereq type="default">libvma</packagereq>
+			<packagereq type="default">mlnx-ethtool</packagereq>
+			<packagereq type="default">ibutils2</packagereq>
+			<packagereq type="default">libvma-devel</packagereq>
+			<packagereq type="default">perftest</packagereq>
+			<packagereq type="default">libmlx5</packagereq>
+			<packagereq type="default">sockperf</packagereq>
+			<packagereq type="default">mlnx-iproute2</packagereq>
+			<packagereq type="default">mlnx-ofed-vma-eth-3.10.0-957.1.3.el7.x86_64</packagereq>
+		</packagelist>
+			</group>
+	<group>
+
+				<id>hpc_3_10_0_957_1_3_el7_x86_64</id>
+				<name>MLNX_OFED HPC-3.10.0-957.1.3.EL7.X86_64</name>
+				<default>true</default>
+				<description>Mellanox OpenFabrics Enterprise Distribution for Linux: MLNX_OFED HPC-3.10.0-957.1.3.EL7.X86_64 packages</description>
+				<uservisible>true</uservisible>
+				<packagelist>
+			<packagereq type="default">ucx</packagereq>
+			<packagereq type="default">libibmad</packagereq>
+			<packagereq type="default">mlnx-ofa_kernel</packagereq>
+			<packagereq type="default">dapl-devel</packagereq>
+			<packagereq type="default">libibverbs</packagereq>
+			<packagereq type="default">ibdump</packagereq>
+			<packagereq type="default">qperf</packagereq>
+			<packagereq type="default">openmpi</packagereq>
+			<packagereq type="default">sharp</packagereq>
+			<packagereq type="default">mft</packagereq>
+			<packagereq type="default">mpitests_openmpi</packagereq>
+			<packagereq type="default">libibcm</packagereq>
+			<packagereq type="default">mpi-selector</packagereq>
+			<packagereq type="default">dapl</packagereq>
+			<packagereq type="default">infiniband-diags-compat</packagereq>
+			<packagereq type="default">librdmacm</packagereq>
+			<packagereq type="default">isert</packagereq>
+			<packagereq type="default">srp</packagereq>
+			<packagereq type="default">knem-modules</packagereq>
+			<packagereq type="default">ofed-scripts</packagereq>
+			<packagereq type="default">libibverbs-utils</packagereq>
+			<packagereq type="default">iser</packagereq>
+			<packagereq type="default">infiniband-diags</packagereq>
+			<packagereq type="default">opensm-libs</packagereq>
+			<packagereq type="default">dapl-devel-static</packagereq>
+			<packagereq type="default">librdmacm-utils</packagereq>
+			<packagereq type="default">kernel-mft</packagereq>
+			<packagereq type="default">libmlx4</packagereq>
+			<packagereq type="default">ar_mgr</packagereq>
+			<packagereq type="default">mlnx-ofa_kernel-modules</packagereq>
+			<packagereq type="default">dump_pr</packagereq>
+			<packagereq type="default">ibacm</packagereq>
+			<packagereq type="default">mstflint</packagereq>
+			<packagereq type="default">librxe</packagereq>
+			<packagereq type="default">mlnx-ofa_kernel-devel</packagereq>
+			<packagereq type="default">libibumad</packagereq>
+			<packagereq type="default">ucx-devel</packagereq>
+			<packagereq type="default">ibutils</packagereq>
+			<packagereq type="default">hcoll</packagereq>
+			<packagereq type="default">mlnx-ethtool</packagereq>
+			<packagereq type="default">ucx-static</packagereq>
+			<packagereq type="default">ibutils2</packagereq>
+			<packagereq type="default">perftest</packagereq>
+			<packagereq type="default">cc_mgr</packagereq>
+			<packagereq type="default">opensm</packagereq>
+			<packagereq type="default">dapl-utils</packagereq>
+			<packagereq type="default">mxm</packagereq>
+			<packagereq type="default">mlnx-iproute2</packagereq>
+			<packagereq type="default">libmlx5</packagereq>
+			<packagereq type="default">mlnx-ofed-hpc-3.10.0-957.1.3.el7.x86_64</packagereq>
+		</packagelist>
+			</group>
+	<group>
+
+				<id>dpdk_user_only</id>
+				<name>MLNX_OFED DPDK-USER-ONLY</name>
+				<default>true</default>
+				<description>Mellanox OpenFabrics Enterprise Distribution for Linux: MLNX_OFED DPDK-USER-ONLY packages</description>
+				<uservisible>true</uservisible>
+				<packagelist>
+			<packagereq type="default">mstflint</packagereq>
+			<packagereq type="default">librdmacm</packagereq>
+			<packagereq type="default">librdmacm-devel</packagereq>
+			<packagereq type="default">libibverbs-devel-static</packagereq>
+			<packagereq type="default">libibverbs-devel</packagereq>
+			<packagereq type="default">libibverbs</packagereq>
+			<packagereq type="default">libmlx4</packagereq>
+			<packagereq type="default">libibverbs-utils</packagereq>
+			<packagereq type="default">ofed-scripts</packagereq>
+			<packagereq type="default">librdmacm-utils</packagereq>
+			<packagereq type="default">libmlx4-devel</packagereq>
+			<packagereq type="default">libmlx5-devel</packagereq>
+			<packagereq type="default">libmlx5</packagereq>
+			<packagereq type="default">mlnx-ofed-dpdk-user-only</packagereq>
+		</packagelist>
+			</group>
+	<group>
+
+				<id>basic_user_only</id>
+				<name>MLNX_OFED BASIC-USER-ONLY</name>
+				<default>true</default>
+				<description>Mellanox OpenFabrics Enterprise Distribution for Linux: MLNX_OFED BASIC-USER-ONLY packages</description>
+				<uservisible>true</uservisible>
+				<packagelist>
+			<packagereq type="default">mstflint</packagereq>
+			<packagereq type="default">librxe</packagereq>
+			<packagereq type="default">librdmacm</packagereq>
+			<packagereq type="default">libibverbs</packagereq>
+			<packagereq type="default">libmlx4</packagereq>
+			<packagereq type="default">libibverbs-utils</packagereq>
+			<packagereq type="default">ofed-scripts</packagereq>
+			<packagereq type="default">mlnx-ethtool</packagereq>
+			<packagereq type="default">librdmacm-utils</packagereq>
+			<packagereq type="default">mft</packagereq>
+			<packagereq type="default">mlnx-iproute2</packagereq>
+			<packagereq type="default">libmlx5</packagereq>
+			<packagereq type="default">mlnx-ofed-basic-user-only</packagereq>
+		</packagelist>
+			</group>
+</comps>

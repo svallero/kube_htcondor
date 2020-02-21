@@ -1,0 +1,19 @@
+#!/bin/bash
+set -eou pipefail
+
+if [ -f "/archive/home/$1/.ssh/authorized_keys" ]; then
+        cat /archive/home/$1/.ssh/authorized_keys
+fi
+
+IFS=$'\n\t'
+
+result=$(ldapsearch -H ldap://192.168.0.253/ -x -b o=c3s,dc=unito,dc=it '(&(objectClass=posixAccount)(uid='"$1"'))' 'sshPublicKey')
+attrLine=$(echo "$result" | sed -n '/^ /{H;d};/sshPublicKey:/x;$g;s/\n *//g;/sshPublicKey:/p')
+
+if [[ "$attrLine" == sshPublicKey::* ]]; then
+  echo "$attrLine" | sed 's/sshPublicKey:: //' | grep -v "^[key|nullkey]" | base64 -d | sed ':a;N;$!ba;s/\n//g'
+elif [[ "$attrLine" == sshPublicKey:* ]]; then
+  echo "$attrLine" | sed 's/sshPublicKey: //' |grep -v "^[key|nullkey]"
+else
+  exit 1
+fi

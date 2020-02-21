@@ -1,0 +1,63 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: htcondor-submitter-svallero
+  namespace: svallero
+spec:
+  ports:
+  - port: 9618
+    name: htc-submitter
+  - port: 22
+    name: htc-ssh 
+  selector:
+    app: htcondor-submitter-svallero
+  clusterIP: None
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: htcondor-submitter-svallero
+  namespace: svallero
+spec:
+  selector:
+    matchLabels:
+      app: htcondor-submitter-svallero
+  strategy:
+    type: Recreate
+  template:
+    metadata:
+      labels:
+        app: htcondor-submitter-svallero
+    spec:
+      hostname: "htcondor-submitter-svallero"
+      containers:
+      - image: svallero/htcondor:test
+        imagePullPolicy: Always
+        name: htc-submitter
+        ports:
+        - containerPort: 9618
+          name: htc-submitter
+        - containerPort: 22
+          name: htc-ssh
+        args:
+        - "-s"
+        - "htcondor-master-svallero"
+        - "-S"
+        - "1234"
+        - "-C"
+        - "6"
+        - "-D"
+        - "htcondor-submitter-svallero"
+        volumeMounts:
+        - mountPath: /home
+          name: v1
+        livenessProbe:
+          httpGet:
+            path: /health
+            port: 5000
+          initialDelaySeconds: 10
+          periodSeconds: 3
+      volumes:
+      - name: v1
+        persistentVolumeClaim:
+          claimName: htcondor-home

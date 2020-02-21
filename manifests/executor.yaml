@@ -1,0 +1,66 @@
+#apiVersion: v1
+#kind: Service
+#metadata:
+#  name: htcondor-executor-svallero
+#  namespace: svallero
+#spec:
+#  ports:
+#  - port: 22
+#    name: htc-ssh
+#  selector:
+#    app: htcondor-executor-svallero
+#  clusterIP: None
+#---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: htcondor-executor-svallero
+  namespace: svallero
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: htcondor-executor-svallero
+  strategy:
+    type: Recreate
+  template:
+    metadata:
+      labels:
+        app: htcondor-executor-svallero
+    spec:
+      containers:
+      - image: svallero/htcondor:test
+        imagePullPolicy: Always
+        name: htc-executor
+        ports:
+        - containerPort: 22
+          name: htc-executor
+        args:
+        - "-e"
+        - "htcondor-master-svallero"
+        - "-S"
+        - "1234"
+        - "-C"
+        - "6"
+        - "-D"
+        - "htcondor-submitter-svallero" 
+        resources:
+          requests:
+            memory: "30Gi"
+            cpu: "6"
+          limits:
+            memory: "60Gi"
+            cpu: "12"
+        volumeMounts:
+        - mountPath: /home
+          name: v1
+#        livenessProbe:
+#          httpGet:
+#            path: /health
+#            port: 5000
+#          initialDelaySeconds: 10
+#          periodSeconds: 3
+      volumes:
+      - name: v1
+        persistentVolumeClaim:
+          claimName: htcondor-home

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <comps>
+	<group>
+
+				<id>dpdk_upstream_libs</id>
+				<name>MLNX_OFED DPDK-UPSTREAM-LIBS</name>
+				<default>true</default>
+				<description>Mellanox OpenFabrics Enterprise Distribution for Linux: MLNX_OFED DPDK-UPSTREAM-LIBS packages</description>
+				<uservisible>true</uservisible>
+				<packagelist>
+			<packagereq type="default">rdma-core</packagereq>
+			<packagereq type="default">ofed-scripts</packagereq>
+			<packagereq type="default">librdmacm-utils</packagereq>
+			<packagereq type="default">mlnx-ofa_kernel</packagereq>
+			<packagereq type="default">kmod-mlnx-ofa_kernel</packagereq>
+			<packagereq type="default">libibverbs-utils</packagereq>
+			<packagereq type="default">librdmacm</packagereq>
+			<packagereq type="default">mstflint</packagereq>
+			<packagereq type="default">kmod-iser</packagereq>
+			<packagereq type="default">kmod-isert</packagereq>
+			<packagereq type="default">libibverbs</packagereq>
+			<packagereq type="default">kmod-srp</packagereq>
+			<packagereq type="default">mlnx-ofa_kernel-devel</packagereq>
+			<packagereq type="default">rdma-core-devel</packagereq>
+			<packagereq type="default">mlnx-ofed-dpdk-upstream-libs</packagereq>
+		</packagelist>
+			</group>
+	<group>
+
+				<id>dpdk_upstream_libs_user_only</id>
+				<name>MLNX_OFED DPDK-UPSTREAM-LIBS-USER-ONLY</name>
+				<default>true</default>
+				<description>Mellanox OpenFabrics Enterprise Distribution for Linux: MLNX_OFED DPDK-UPSTREAM-LIBS-USER-ONLY packages</description>
+				<uservisible>true</uservisible>
+				<packagelist>
+			<packagereq type="default">librdmacm</packagereq>
+			<packagereq type="default">libibverbs-utils</packagereq>
+			<packagereq type="default">mlnx-ofa_kernel</packagereq>
+			<packagereq type="default">kmod-mlnx-ofa_kernel</packagereq>
+			<packagereq type="default">librdmacm-utils</packagereq>
+			<packagereq type="default">ofed-scripts</packagereq>
+			<packagereq type="default">rdma-core</packagereq>
+			<packagereq type="default">rdma-core-devel</packagereq>
+			<packagereq type="default">kmod-isert</packagereq>
+			<packagereq type="default">kmod-iser</packagereq>
+			<packagereq type="default">libibverbs</packagereq>
+			<packagereq type="default">kmod-srp</packagereq>
+			<packagereq type="default">mstflint</packagereq>
+			<packagereq type="default">mlnx-ofed-dpdk-upstream-libs-user-only</packagereq>
+		</packagelist>
+			</group>
+</comps>

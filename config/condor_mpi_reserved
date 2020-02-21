@@ -1,0 +1,20 @@
+# MPI partitions
+SLOT_TYPE_1_PARTITIONABLE = True
+SLOT_TYPE_1 = CPUS=6
+NUM_SLOTS_TYPE_1 = 1
+
+# Dedicated Scheduler
+#DedicatedScheduler = "DedicatedScheduler@htcondor-submitter-svallero.svallero.svc.cluster.local"
+DedicatedScheduler = "DedicatedScheduler@htcondor-submitter-svallero"
+STARTD_ATTRS = $(STARTD_ATTRS) DedicatedScheduler
+RANK = Scheduler =?= $(DedicatedScheduler)
+
+# SSH connection required by MPI jobs
+CONDOR_SSHD = /usr/sbin/sshd
+CONDOR_SSH_KEYGEN = /usr/bin/ssh-keygen
+
+# Client auth
+SEC_CLIENT_AUTHENTICATION_METHODS= FS, FS_REMOTE, PASSWORD
+SEC_DEFAULT_AUTHENTICATION_METHODS= FS, FS_REMOTE, PASSWORD
+#SEC_DAEMON_AUTHENTICATION_METHODS= FS, FS_REMOTE, PASSWORD
+FS_REMOTE_DIR = /home/tmp
